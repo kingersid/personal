@@ -1,0 +1,25 @@
+{
+  "name": "confusion",
+  "homepage": "https://github.com/kingersid/R_training_Basic",
+  "authors": [
+    "kingersid <kinger.siddharth@gmail.com>"
+  ],
+  "description": "restaurant",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "restaurant"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.1"
+  }
+}

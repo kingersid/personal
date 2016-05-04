@@ -1,28 +1,49 @@
 ---
 layout: default
 ---
+<div class="main">
+            <div class="container"> 
+                <ul class="comments" id="comments">
+                    <li>My latest posts</li>
+                </ul>
 
-<div class="home">
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="./img/1.jpg" alt="...">
+      <div class="caption">
+        <h4>Data scientists can also be designers</h4>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+        <button class="btn">Button</button>
+      </div>
+    </div>
+  </div>
+   <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="./img/2.jpg" alt="...">
+      <div class="caption">
+        <h4>Data scientists can also be designers</h4>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+        <button class="btn">Button</button>
+      </div>
+    </div>
+  </div>
 
-  <h1 class="page-heading">Posts</h1>
+   <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="./img/3.jpg" alt="...">
+      <div class="caption">
+        <h4>Data scientists can also be designers</h4>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+        <button class="btn">Button</button>
+      </div>
+    </div>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-    <a href="{{site.baseurl}}/pages/lake.html">check this out</a>
-    <a href="{{site.baseurl}}/confusion/index.html">and this</a>
-    <a href="{{site.baseurl}}/threadly/index.html">and this</a>
-
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
-  
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

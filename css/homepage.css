@@ -16,6 +16,16 @@ html, body {
     transition: background 2s, color 2s;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+    /* color: #9d9d9d; */
+    color: #00f28f;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #00f28f;
+}
+
+
 h1 {
     border-left: 2px solid #00f28f;
     font-size: 48px;

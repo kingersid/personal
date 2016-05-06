@@ -11,6 +11,10 @@ html,body{
 	font-family: 'Montserrat', sans-serif;
 	background:#fff;
 }
+
+.navbar {
+	margin-bottom: 0px;
+}
 body a{
     transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -191,20 +195,20 @@ i.twt:hover {
 	margin:0;
 }
 p.adm {
-    color: #868f98;
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.8em;
-    text-align: left;
-    padding: 0.25em 0;
+	color: #868f98;
+	font-size: 1em;
+	font-weight: 400;
+	line-height: 1.8em;
+	text-align: left;
+	padding: 1em 0;
 }
 p.adm a {
-    color: #868f98;
-    font-weight: 700;
-    text-decoration: underline;
+	color: #868f98;
+	font-weight: 700;
+	text-decoration: underline;
 }
 p.adm a:hover {
-    color: #00f28f;
+	color: #868f98;
 }
 .content p {
 	color: #868f98;
@@ -1022,7 +1026,11 @@ span.icon_text {
 	font-size: 13px;
 }
 span {
-	color: #00f28f;
+		color: #00f28f;
+}
+
+h6>a>span {
+	color:;
 }
 .details li i.admin {
 	background-position: -224px -13px;
@@ -1708,8 +1716,10 @@ span.icon_text {
 ul.links li, ul.links_middle li, ul.links_bottom li {
 	margin-right: 13px;
 }
-}
+
 
 .content>ul>li {
 	list-style: none;
 }
+
+
